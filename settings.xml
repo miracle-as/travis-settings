@@ -12,6 +12,11 @@
       <password>${env.CI_DEPLOY_PASSWORD}</password>
       <id>snapshots</id>
     </server>
+    <server>
+      <username>${env.CI_DEPLOY_USERNAME}</username>
+      <password>${env.CI_DEPLOY_PASSWORD}</password>
+      <id>miracle-docker-intern.jfrog.io</id>
+    </server>
   </servers>
   <mirrors>
     <mirror>
